@@ -7,7 +7,7 @@ const connection = require('../lib/setup-mongoose');
 const db = require('./db');
 const app = require('../lib/app');
 
-describe.only('images', () => {
+describe('images', () => {
 
     const request = chai.request(app);
 
